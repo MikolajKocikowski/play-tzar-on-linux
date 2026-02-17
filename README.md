@@ -2,20 +2,21 @@
 
 ## Intro
 
-Sometimes you feel like playing a game from the past just to realize it is 2026, the game is **Tzar: Burden of the Crown** (2000), and you've forgone Windows for Linux quite a while ago. But despair not!
+Sometimes you feel like playing a game from the past just to realize it is 2026, the game is **Tzar: Burden of the Crown (2000)**, and you've forgone Windows for Linux quite a while ago. But despair not!
 
-I tried to make it work with Steam, Wine, Lutris + game-specific scripts, both with an old installer and fresh purchase from GOG... To no effect. So I solved it with [Bottles](https://usebottles.com/) and came back to share the ancient spells so you too can:
+I tried to make it work with Steam, Wine, Lutris + game-specific scripts, with an old installer and fresh GOG purchase... To no good effect. So I solved it with Bottles wine manager and lived to tell the tale, more specifically to share the ancient spells so you too can:
 
 - Play Tzar on Linux
 - At full-screen with high resolution
-- With sound effects and music intact and MIDI music
+- With sound effects and MIDI music intact
 - Easily launchable via a script
-- Enjoy the experience ⚔️
+
+Enjoy the experience! ⚔️
 
 
 ## Environment
 
-This solution will certainly work on many systems, but for the sake or reproducibility: I've run it on Linux Mint 22.3 (which is based Ubuntu 24.04.3 LTS).
+This solution will work on many systems, but for the sake of reproducibility: I've run it on Linux Mint 22.3 (based Ubuntu 24.04.3 LTS), with [Bottles](https://usebottles.com/) 61.1.
 
 ## Requirements
 
