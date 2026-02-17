@@ -1,6 +1,6 @@
 # Play Tzar on Linux with Bottles
 
-## Intro
+## Intro ⚔️
 
 Sometimes you feel like playing a game from the past just to realize it is 2026, the game is **Tzar: Burden of the Crown (2000)**, and you've forgone Windows for Linux quite a while ago. But despair not!
 
@@ -11,14 +11,14 @@ I tried to make it work with Steam, Wine, Lutris + game-specific scripts, with a
 - With sound effects and MIDI music intact
 - Easily launchable via a script
 
-Enjoy the experience! ⚔️
+Enjoy the experience! 
 
 
-## Environment
+### Environment
 
 This solution will work on many systems, but for the sake of reproducibility: I've run it on Linux Mint 22.3 (based Ubuntu 24.04.3 LTS), with [Bottles](https://usebottles.com/) 61.1.
 
-## Requirements
+### Requirements
 
 We will use:
 - **Bottles** installed via Flatpak (for example through Mint's software manager), 
@@ -172,7 +172,7 @@ chmod +x ~/launch-tzar.sh
 
 Double click the script file of lanuch it from the terminal with `~/launch-tzar.sh`. You should see Timidity starting, game launching at full resolution and the music should play once you start the game (there is no music in the menu). Does it work? Congratulate yourself!
 
-## Optional improvements 
+## Optional improvements 🪄
 
 This guide is a living document. Some things are yet to be tested or improved - feel free to pick up the torch:
 
@@ -180,9 +180,9 @@ This guide is a living document. Some things are yet to be tested or improved - 
 - Desktop/start menu shortcut - a clean way to launch without a terminal
 - Alternative configurations for the Bottle?
 
-If you've improved on this setup, please open a PR or drop an issue and let me know! Let's build on each other's spells. 🪄
+If you've improved on this setup, please open a PR or drop an issue and let me know! Let's build on each other's spells. 
 
-## Credits and Resources
+## Credits
 
 **HD Patch** by **OLDodin** on ModDB: https://www.moddb.com/games/tzar-the-burden-of-the-crown/downloads/tzar-burden-of-the-crown-hd-patch-1280x720-1920x1200-ver-30
 
