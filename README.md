@@ -25,7 +25,7 @@ We will use:
 - **Tzar** installer file, in my case: `setup_tzar_2.0.0.8.exe`,
 - **HD patch v3.4** downloaded from [here](https://www.moddb.com/games/tzar-the-burden-of-the-crown/downloads/tzar-burden-of-the-crown-hd-patch-1280x720-1920x1200-ver-30)
 
-## The Alchemy
+## The Alchemy 📜
 
 ### 1: Create a New Bottle
 
@@ -170,12 +170,17 @@ chmod +x ~/launch-tzar.sh
 
 4. Test the Launch Script
 
-Double click the script file of lanuch it from the terminal with `~/launch-tzar-with-music.sh`. You should see Timidity starting, game launching at full resolution and the music should play once you start the game (there is no music in the menu). Does it work? Congratulate yourself!
+Double click the script file of lanuch it from the terminal with `~/launch-tzar.sh`. You should see Timidity starting, game launching at full resolution and the music should play once you start the game (there is no music in the menu). Does it work? Congratulate yourself!
 
 ## Optional improvements 
 
-What could be added:
-- desktop/start menu shortcuts
+This guide is a living document. Some things are yet to be tested or improved - feel free to pick up the torch:
+
+- LAN multiplayer - does it work? How?
+- Desktop/start menu shortcut - a clean way to launch without a terminal
+- Alternative configurations for the Bottle?
+
+If you've improved on this setup, please open a PR or drop an issue and let me know! Let's build on each other's spells. 🪄
 
 ## Credits and Resources
 
