@@ -130,7 +130,7 @@ Opening sequencer port: 128:0 128:1 128:2 128:3
 
 2. In Bottles, run `Setup.exe` from the game folder. Click "Test Music". 
 
-It should play now. You may notice slight scratches or artifacts in the MIDI playback. This is a known issue with Wine + Timidity + PipeWire and unfortunately difficult to eliminate. Don't click "Run Tzar" as it will not use "TzarRunner.exe" - exit instead. The music is now set up.
+It should play now. You may notice slight scratches or artifacts in the MIDI playback, or the music may even get stuck and disappear at times. This is a known issue with Wine + Timidity + PipeWire and unfortunately difficult to eliminate. Don't click "Run Tzar" as it will not use "TzarRunner.exe" - exit instead. The music is now set up.
 
 
 ### 10: Create Automated Launch Script
@@ -170,7 +170,7 @@ chmod +x ~/launch-tzar.sh
 
 4. Test the Launch Script
 
-Double click the script file of lanuch it from the terminal with `~/launch-tzar.sh`. You should see Timidity starting, game launching at full resolution and the music should play once you start the game (there is no music in the menu). Does it work? Congratulate yourself!
+Double click the script file of lanuch it from the terminal with `~/launch-tzar.sh`. You should see Timidity starting, game launching at full resolution and the music should play once you start the game (there is no music in the menu). Does it work? Congratulate yourself! Occassionally it may stop working. In such case run timidity manually in the terminal and re-do `Setup.exe` until it works. Retro gaming!
 
 ## Optional improvements 🪄
 
@@ -178,7 +178,9 @@ This guide is a living document. Some things are yet to be tested or improved - 
 
 - LAN multiplayer - does it work? How?
 - Desktop/start menu shortcut - a clean way to launch without a terminal
-- Alternative configurations for the Bottle?
+- Prepare a Lutris script or export the bottle as `.tar.gz` for easy install
+- Alternative configurations for the Bottle, for any experience improvements?
+- Make the music setup truely robust? If you're a powerful mage.
 
 If you've improved on this setup, please open a PR or drop an issue and let me know! Let's build on each other's spells. 
 
