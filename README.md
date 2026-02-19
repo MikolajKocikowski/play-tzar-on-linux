@@ -130,7 +130,9 @@ Opening sequencer port: 128:0 128:1 128:2 128:3
 
 2. In Bottles, run `Setup.exe` from the game folder. Click "Test Music". 
 
-It should play now. You may notice slight scratches or artifacts in the MIDI playback, or the music may even get stuck and disappear at times. This is a known issue with Wine + Timidity + PipeWire and unfortunately difficult to eliminate. Don't click "Run Tzar" as it will not use "TzarRunner.exe" - exit instead. The music is now set up.
+It should play now. Don't click "Run Tzar" as it will not use "TzarRunner.exe" - exit instead. 
+
+The music is now set up. But keep expectations low. You may notice slight scratches or artifacts in the MIDI playback, or the music may even get stuck and stop at times. This is a known issue with Wine + Timidity + PipeWire and unfortunately difficult to eliminate. A less elegant, but better sounding solution is to just play the songs in a music player, manually, outside the bottle. To each their own.
 
 
 ### 10: Create Automated Launch Script
