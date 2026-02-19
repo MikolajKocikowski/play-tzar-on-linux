@@ -182,7 +182,7 @@ This guide is a living document. Some things are yet to be tested or improved - 
 - Desktop/start menu shortcut - a clean way to launch without a terminal
 - Prepare a Lutris script or export the bottle as `.tar.gz` for easy install
 - Alternative configurations for the Bottle, for any experience improvements?
-- Make the music setup truely robust? If you're a powerful mage.
+- Make the music setup truly robust? If you're a powerful mage.
 
 If you've improved on this setup, please open a PR or drop an issue and let me know! Let's build on each other's spells. 
 
