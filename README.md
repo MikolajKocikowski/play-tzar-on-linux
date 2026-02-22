@@ -42,8 +42,12 @@ The game requires specific Windows libraries, as it was built with older Microso
 
 1) `vcredist6sp6` (Visual C++ 6 Service Pack 6) - provides the `mfc42.dll` library required to run Setup.exe. If you search for `mfc42`, you will find "it", but `mfc42u.dll` will be installed, which is not identical.
 
-2) `vcredist2015` (Visual C++ 2015) - provides the `mcf140.dll` library required by the `HD Patch` that we'll install later. If your game already includes the patch, this step is probably still needed.
+2) `vcredist2015` (Visual C++ 2015) - required by the `HD Patch` that we'll install later (or that may be included already in your game distribution). Reportedly the patch requires `mcf140.dll`, but it is actually not included in this package - I did not check whether this dll file alone is sufficient.
 
+**A note on individual libraries:**
+
+If you want to install the individual libraries, `mfc42.dll` needs to land at:
+`.../windows/syswow64/` (for x64 systems), and the other one probably too. I read that MS is removing old libraries from their website, making the revival of many retro games difficult. Those above can currently be obtained at [https://www.dll-files.com].  
 
 ### 3: Install the Game
 
